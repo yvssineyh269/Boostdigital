@@ -12,12 +12,12 @@ export default function Hero() {
       <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
         <div>
           <h1 className="block text-3xl font-bold text-foreground sm:text-4xl lg:text-6xl lg:leading-tight">
-            Start to be visible with us{" "}
+            Commencez à être visible avec nous{" "}
             <span className="text-green-700">BoostDigital</span>
           </h1>
           <p className="mt-3 text-lg text-foreground">
-            Professional strategies designed by experts to give you visibility
-            for any entrepreneur and any business.
+            Stratégies professionnelles conçues par des experts pour vous offrir
+            une visibilité à tout entrepreneur et toute entreprise.
           </p>
 
           <div className="grid sm:inline-flex w-full gap-3 mt-7">
@@ -40,7 +40,7 @@ export default function Hero() {
                 height={24}
                 style={{ marginRight: "4px" }}
               />
-              Let&apos;s talk
+              Parlons-en
             </Link>
             <Link
               className={cn(
@@ -69,7 +69,7 @@ export default function Hero() {
               </div>
 
               <p className="mt-3 text-sm text-foreground">
-                <span className="font-bold">Trusted by</span> -{" "}
+                <span className="font-bold">Created by</span> -{" "}
                 <Link
                   href={"https://facebook.com"}
                   className="text-blue-600 font-semibold"
