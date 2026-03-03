@@ -124,3 +124,130 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Classes Overpass */
+.overpass-thin {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.overpass-thin-italic {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.overpass-extralight {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.overpass-extralight-italic {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.overpass-light {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.overpass-light-italic {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.overpass-regular {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.overpass-regular-italic {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.overpass-medium {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.overpass-medium-italic {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.overpass-semibold {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.overpass-semibold-italic {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.overpass-bold {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.overpass-bold-italic {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.overpass-extrabold {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.overpass-extrabold-italic {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.overpass-black {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.overpass-black-italic {
+  font-family: var(--font-overpass);
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+}
