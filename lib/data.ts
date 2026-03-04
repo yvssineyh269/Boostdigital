@@ -1,3 +1,4 @@
+import { Check } from "lucide-react";
 import { LogoProps, MentuItem } from "./nav-types";
 
 // NavBar
@@ -34,3 +35,13 @@ export const contact = [
     address: "Moroni, Ngazidja, Comores",
   },
 ];
+
+
+export const pricing = [
+  {
+    title: "",
+    description: "",
+    price: "",
+    // icon: <Check />
+  }
+]

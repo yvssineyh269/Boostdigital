@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import whatsapp from "@/public/whatsapp.svg";
 import hero from "@/public/hero.jpg";
-import { Phone, PhoneCall, Star, StarHalf } from "lucide-react";
+import { PhoneCall, Star, StarHalf } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -50,7 +50,7 @@ export default function Hero() {
                 "mt-4",
                 "bg-amber-400 hover:bg-amber-500",
               )}
-              href="https://wa.me/33600000000"
+              href="tel:002694460291"
               target="_blank"
               rel="noopener noreferrer"
             >
