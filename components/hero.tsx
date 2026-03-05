@@ -8,11 +8,14 @@ import { PhoneCall, Star, StarHalf } from "lucide-react";
 
 export default function Hero() {
   return (
-    <div className="mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
+    <div className="relative mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
+      {/* Dégradé global qui part du côté texte/boutons vers l'image */}
+      <div className="pointer-events-none absolute inset-0 z-0 bg-gradient-to-r from-green-700/60 via-transparent to-transparent" />
+
+      <div className="relative z-10 grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
         <div>
           <h1 className="block text-3xl font-bold text-foreground sm:text-4xl lg:text-6xl lg:leading-tight">
-            Commencez à être visible avec nous{" "}
+            Commencez à être visible avec {" "}
             <span className="text-green-700">BoostDigital</span>
           </h1>
           <p className="mt-3 text-lg text-foreground">
@@ -82,11 +85,11 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative ms-4">
+        {/* Image masquée sur mobile, visible à partir de md */}
+        <div className="relative ms-4 hidden md:block">
           <Image className="w-full rounded-md" src={hero} alt="Hero-Image" />
-          <div className="absolute inset-0 -z-1 bg-linear-to-tr from-surface-1 via-transparent to-travia-transparent size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6" />
 
-          <div className="absolute bottom-0 inset-s-0">
+          {/* <div className="absolute bottom-0 inset-s-0">
             <svg
               className="w-2/3 ms-auto h-auto text-white dark:text-neutral-900"
               width="630"
@@ -173,7 +176,7 @@ export default function Hero() {
               />
               <rect x="531" y="49" width="99" height="99" fill="currentColor" />
             </svg>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

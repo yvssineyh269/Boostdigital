@@ -49,7 +49,7 @@ const data = [
     ],
   },
   {
-    type: "Ads",
+    type: "Pro",
     price: "75 000",
     description: "Get started with basic features",
     option: [
@@ -96,7 +96,7 @@ const data = [
     ],
   },
   {
-    type: "Gold",
+    type: "Premium",
     price: "125 000",
     description: "Get started with basic features",
     option: [
@@ -146,13 +146,20 @@ const data = [
 
 export default function Pricing() {
   return (
-    <div className="content">
+    <div
+      className=" bg-cover w-full h-full"
+      style={{
+        backgroundImage: "url('/pattern.svg')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="overflow-hidden">
         <div className="relative">
           <div className="px-4 pt-10 sm:px-6 lg:px-8 lg:pt-14 mx-auto">
             <div className="mx-auto text-center mb-10">
-              <h2 className="text-3xl leading-tight font-bold md:text-4xl md:leading-tight lg:text-5xl bg-clip-padding bg-linear-to-r from-green-400 to-yellow-200 text-black rounded-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <h2 className="text-3xl leading-tight font-bold md:text-4xl md:leading-tight lg:text-5xl bg-clip-text bg-linear-to-r from-green-400 to-yellow-200 text-black rounded-xl">
+                Package services pour votre business
               </h2>
               <p className="mt-2 text-sm text-muted-foreground">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
@@ -162,10 +169,7 @@ export default function Pricing() {
               </p>
             </div>
             {/* GRID CARD PRICING */}
-            <div
-              className="mt-6 md:mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 lg:gap-3 xl:gap-6 lg:items-center"
-              style={{ backgroundImage: "url('/)" }}
-            >
+            <div className="mt-6 md:mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 lg:gap-3 xl:gap-6 lg:items-center">
               {data.map((item, index) => (
                 <div
                   className="flex flex-col bg-card border border-card-line text-center rounded-xl p-8"
@@ -174,8 +178,13 @@ export default function Pricing() {
                   <h4 className="font-bold text-lg text-foreground">
                     Pack{" "}
                     <span
-                      className="font-semibold text-blue-700 overpass-extrabold text-3xl
-                  "
+                      className={`uppercase font-semibold overpass-extrabold text-3xl ${
+                        item.type === "Standard"
+                          ? "text-green-500"
+                          : item.type === "Pro"
+                            ? "text-indigo-600"
+                            : "text-yellow-500"
+                      }`}
                     >
                       {item.type}
                     </span>
