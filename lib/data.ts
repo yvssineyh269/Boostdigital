@@ -1,4 +1,3 @@
-import { Check } from "lucide-react";
 import { LogoProps, MentuItem } from "./nav-types";
 
 // NavBar
@@ -45,3 +44,4 @@ export const pricing = [
     // icon: <Check />
   }
 ]
+

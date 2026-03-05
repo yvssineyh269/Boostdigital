@@ -1,6 +1,5 @@
 import {
   BetweenHorizonalStart,
-  Home,
   Link2,
   SendHorizonal,
   UserRoundPen,
@@ -10,25 +9,25 @@ import Image from "next/image";
 
 const data = [
   {
-    title: "Lorem ipsum dolor",
+    title: "Création de contenu marketing",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Praesentium labore tempora velit, a quos voluptates quas doloribus quibusdam corrupti blanditiis.",
     icon: <UserRoundPen />,
   },
   {
-    title: "Lorem ipsum dolor",
+    title: "Stratégie marketing commerciale",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium labore tempora velit, a quos voluptates quas doloribus quibusdam corrupti blanditiis.",
     icon: <Link2 />,
   },
   {
-    title: "Lorem ipsum dolor",
+    title: "Gestion des réseaux sociaux",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium labore tempora velit, a quos voluptates quas doloribus quibusdam corrupti blanditiis.",
     icon: <SendHorizonal />,
   },
   {
-    title: "Lorem ipsum dolor",
+    title: "Production et montage",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium labore tempora velit, a quos voluptates quas doloribus quibusdam corrupti blanditiis.",
     icon: <BetweenHorizonalStart />,
@@ -50,7 +49,7 @@ export default function Mission() {
 
       {/* GRID VIEW */}
       <div className="lg:mt-6 grid lg:grid-cols-3 gap8 lg:gap-12">
-        <div className="lg:col-span-2 bg-green-700 rounded-xl">
+        <div className="lg:col-span-2 bg-clip-padding bg-linear-to-bl from-green-600 to-yellow-400 rounded-xl">
           <div className="grid sm:grid-cols-2 gap-4 md:gap-4 px-4 py-4">
             {data.map((item, index) => (
               <div
@@ -75,10 +74,8 @@ export default function Mission() {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
           </h1>
           <p className="mt-2 md:mt-4 text-muted-foreground">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Praesentium labore tempora velit, a quos voluptates quas doloribus
-            quibusdam corrupti blanditiis. Dolores laborum adipisci voluptatibus
-            iure quia commodi quos quas neque.
+            Agence de marketing en ligne et d&apos;accompagnement de GPME basé
+            aux Comores, des aspects
           </p>
         </div>
       </div>

@@ -7,21 +7,49 @@ const data = [
     description: "Get started with basic features",
     option: [
       {
-        optionText: "user can do this",
+        optionText: "Lorem ipsum dolor sit amet consectetur",
         icon: <CheckCircle />,
       },
       {
-        optionText: "user can give this",
+        optionText: "Lorem ipsum dolor sit amet consectetur",
         icon: <CheckCircle />,
       },
       {
-        optionText: "user can tacke and speak",
+        optionText: "Lorem ipsum dolor sit amet consectetur",
+        icon: <X />,
+      },
+      {
+        optionText: "Lorem ipsum dolor sit amet consectetur",
+        icon: <X />,
+      },
+      {
+        optionText: "Lorem ipsum dolor sit amet consectetur",
+        icon: <X />,
+      },
+      {
+        optionText: "Lorem ipsum dolor sit amet consectetur",
+        icon: <X />,
+      },
+      {
+        optionText: "Lorem ipsum dolor sit amet consectetur",
+        icon: <X />,
+      },
+      {
+        optionText: "Lorem ipsum dolor sit amet consectetur",
+        icon: <X />,
+      },
+      {
+        optionText: "Lorem ipsum dolor sit amet consectetur",
+        icon: <X />,
+      },
+      {
+        optionText: "Lorem ipsum dolor sit amet consectetur",
         icon: <X />,
       },
     ],
   },
   {
-    type: "Standard",
+    type: "Ads",
     price: "75 000",
     description: "Get started with basic features",
     option: [
@@ -30,20 +58,29 @@ const data = [
         icon: <CheckCircle />,
       },
       {
-        optionText: "user can give this",
+        optionText: "user can do this",
         icon: <CheckCircle />,
       },
       {
-        optionText: "user can tacke and speak",
-        icon: <X />,
+        optionText: "user can do this",
+        icon: <CheckCircle />,
       },
-    ],
-  },
-  {
-    type: "Standard",
-    price: "125 000",
-    description: "Get started with basic features",
-    option: [
+      {
+        optionText: "user can do this",
+        icon: <CheckCircle />,
+      },
+      {
+        optionText: "user can do this",
+        icon: <CheckCircle />,
+      },
+      {
+        optionText: "user can do this",
+        icon: <CheckCircle />,
+      },
+      {
+        optionText: "user can do this",
+        icon: <CheckCircle />,
+      },
       {
         optionText: "user can do this",
         icon: <CheckCircle />,
@@ -54,6 +91,53 @@ const data = [
       },
       {
         optionText: "user can tacke and speak",
+        icon: <X />,
+      },
+    ],
+  },
+  {
+    type: "Gold",
+    price: "125 000",
+    description: "Get started with basic features",
+    option: [
+      {
+        optionText: "Création d'une page Facebook",
+        icon: <CheckCircle />,
+      },
+      {
+        optionText: "Conception de Logo",
+        icon: <CheckCircle />,
+      },
+      {
+        optionText: "Conception de photo de couverture adaptée",
+        icon: <X />,
+      },
+      {
+        optionText: "Partage de publicité d'une fréquence de 5 fois/semaine",
+        icon: <X />,
+      },
+      {
+        optionText: "Conception de photo de couverture adaptée",
+        icon: <X />,
+      },
+      {
+        optionText: "Conception de photo de couverture adaptée",
+        icon: <X />,
+      },
+      {
+        optionText: "Conception de photo de couverture adaptée",
+        icon: <X />,
+      },
+      {
+        optionText: "Conception de photo de couverture adaptée",
+        icon: <X />,
+      },
+      {
+        optionText: "Conception de photo de couverture adaptée",
+        icon: <X />,
+      },
+      {
+        optionText: "Conception de photo de couverture adaptée",
         icon: <X />,
       },
     ],
@@ -78,7 +162,10 @@ export default function Pricing() {
               </p>
             </div>
             {/* GRID CARD PRICING */}
-            <div className="mt-6 md:mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 lg:gap-3 xl:gap-6 lg:items-center" style={{backgroundImage: "url('/)"}}>
+            <div
+              className="mt-6 md:mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 lg:gap-3 xl:gap-6 lg:items-center"
+              style={{ backgroundImage: "url('/)" }}
+            >
               {data.map((item, index) => (
                 <div
                   className="flex flex-col bg-card border border-card-line text-center rounded-xl p-8"

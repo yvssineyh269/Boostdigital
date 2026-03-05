@@ -17,7 +17,8 @@ export default function Hero() {
           </h1>
           <p className="mt-3 text-lg text-foreground">
             Stratégies professionnelles conçues par des experts pour vous offrir
-            une visibilité à tout entrepreneur et toute entreprise.
+            une visibilité sur la toile, à tout entrepreneur et toute
+            entreprise.
           </p>
 
           <div className="grid sm:inline-flex w-full gap-3 mt-7">
